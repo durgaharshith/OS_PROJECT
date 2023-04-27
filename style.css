@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 500px;
+    background-color: rgb(124, 163, 201);
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 100px;
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+}
+form {
+    display: grid;
+    gap: 10px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 40px;
+    border-radius: 4px;
+    opacity: 100%;
+    cursor: pointer;
+    width: 80%;
+}
